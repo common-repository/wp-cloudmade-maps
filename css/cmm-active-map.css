@@ -1,0 +1,17 @@
+/**
+ *  hide unwanted content
+ */
+.cmm-geo-tags{
+  	display:none!important;
+} 
+
+
+/** keep the markerIcon above the label div **/
+img.wml-marker{
+	  z-index:  2000 !important;
+	  max-width: 1000px;
+}
+
+.wml-wrapper .wml-container img {
+max-width: 100%!important;
+}

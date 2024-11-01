@@ -1,0 +1,412 @@
+/** import FE styles **/
+@import url("wp-cmm.css");
+
+
+
+/**
+ *
+ *  Settings pages
+ *  
+*/
+
+.wrap form{
+  position: relative;
+}
+
+#icon-CMM {
+  background: url("../img/CMM_32.png") no-repeat scroll 0 0 transparent !important;
+}
+
+.wp-cmm_settings tr.wp-cmm_example-row,
+#CMM_general_settings tr.wp-cmm_db-options-row{
+		border-top:1px solid #dddddd;
+}
+.wp-cmm_settings tr.wp-cmm_example-row th,
+.wp-cmm_settings tr.wp-cmm_example-row td,
+#CMM_general_settings tr.wp-cmm_db-options-row th,
+#CMM_general_settings tr.wp-cmm_db-options-row td{
+		padding-top:2em;
+}
+
+.wp-cmm_default_adress-row th{	height: 80px;	}
+
+.wp-cmm_default_adress-row td,
+.wp-cmm_options_general_da_zip td,
+.wp-cmm_options_general_da_city td,
+.wp-cmm_options_general_da_region td,
+.wp-cmm_options_general_da_region_code td,
+.wp-cmm_options_general_da_country td,
+.wp-cmm_options_general_da_lat td,
+.wp-cmm_options_general_da_lng td{
+		padding: 0px 10px 9px;
+   	position: absolute;
+   	visibility: hidden;
+}
+
+.wp-cmm_default_adress-row label,
+.wp-cmm_options_general_da_zip label,
+.wp-cmm_options_general_da_city label,
+.wp-cmm_options_general_da_region label,
+.wp-cmm_options_general_da_region_code label,
+.wp-cmm_options_general_da_country label,
+.wp-cmm_options_general_da_lat label,
+.wp-cmm_options_general_da_lng label{
+  position:relative;
+  visibility: visible;
+}
+
+.wp-cmm_options_general_da_zip td label,
+.wp-cmm_options_general_da_region_code td label,
+.wp-cmm_options_general_da_lng td label{
+		left:230px;
+}
+
+.wp-cmm_options_general_da_city label,
+.wp-cmm_options_general_da_country label{
+		left:360px;
+}
+
+.wp-cmm_options_general_da_zip td label,
+.wp-cmm_options_general_da_city label{
+		top:0px;
+}
+.wp-cmm_options_general_da_region td label,
+.wp-cmm_options_general_da_region_code td label,
+.wp-cmm_options_general_da_country label{
+		top:26px;
+}
+.wp-cmm_options_general_da_lat td label,
+.wp-cmm_options_general_da_lng td label{
+		top:52px;
+}
+
+
+/**
+ *  ALL Options Forms and its elements
+ *
+ */
+
+/*
+.wp-cmm_settings .ui-slider{
+		margin-bottom: 1em;
+		width:75%;
+
+}
+*/
+.wp-cmm_settings .checkbox{
+  	background-color: transparent;
+}
+
+.wp-cmm_settings .categorychecklist {
+   margin: 0;
+}
+
+.wp-cmm_settings .checkbox input,
+.wp-cmm_settings .radio input,
+.wp-cmm_settings .terms_checklist input{
+  	margin-top: -2px;
+}
+
+.wp-cmm_settings .multipleselect select{
+		height:auto!important;
+}
+
+.wp-cmm_settings select option{
+		padding-right:10px;
+}
+
+.wp-cmm_settings label input,
+.wp-cmm_settings label select{
+  	margin-right: 5px;
+}
+
+.wp-cmm_settings .radio label{
+		margin: 0 1em 0 0;
+}
+
+.wp-cmm_align label.align {
+		display: inline;
+		padding: 0 0 0 22px;
+}
+
+.wp-cmm_align label.align-none {		background: url('/wp-admin/images/align-none.png') no-repeat center left;	}
+.wp-cmm_align label.align-left {		background: url('/wp-admin/images/align-left.png') no-repeat center left;	}
+.wp-cmm_align label.align-center {		background: url('/wp-admin/images/align-center.png') no-repeat center left;	}
+.wp-cmm_align label.align-right {		background: url('/wp-admin/images/align-right.png') no-repeat center left;	}
+
+.wp-cmm_tiny_tag_suggest {
+		position: absolute;
+		z-index: 999999;
+		border: 1px solid #DFDFDF;
+		background: #fff;
+		padding: 4px;
+		margin-top: -1px;
+		border-top: none;
+		display:none;
+		min-width:137px;
+}
+
+.wp-cmm_tiny_tag_suggest .ac_over {
+		background-color: #EAEAEA;
+}
+
+
+
+/**
+ *
+ *  Example Maps 
+ *  
+*/
+.admin-example-map{
+  position: absolute;
+  top:0;
+  right:0;
+  width:200px;
+  height:200px;
+  overflow:hidden;
+  box-shadow:0 0 10px #E2E2E2;
+  background: #E2E2E2 url('../img/loader.gif') center no-repeat;
+  
+  text-align: center;
+  margin: 0 auto;
+}
+.admin-example-map>div{
+  background-attachment: scroll!important;
+}
+
+.admin-example-map:hover>*{
+		margin:0!important;
+}
+
+.admin-example-map,
+.admin-example-map>div,
+.admin-example-map>div>img{
+  border-radius:6px;
+}
+
+.admin-example-map:hover{
+  overflow:visible;
+  top:0;
+  right:0; 
+  width:auto;
+  height:auto; 
+  box-shadow:0 0 10px #D4D0C8;
+}
+
+.admin-example-map[title]:before{
+	content:attr(title);
+  background-color: #F1F1F1;
+	padding: 2px;
+	position:absolute;
+	top:0;
+  left:0;
+  z-index:5;
+  display:block;
+	white-space:nowrap;
+	-transition:0.25s linear opacity;
+}
+
+.admin-example-map[title]:hover:before{
+  left:-99999px;
+	-transition:0.25s linear opacity;
+}
+
+
+
+/**
+ *
+ *  Post-Edit meta_box
+ *
+*/
+
+#cmm_chose_location {
+		overflow:hidden;
+}
+
+#cmm_chose_location .inside {
+		position:relative;
+}
+
+#cmm_choose_location_legend{
+    visibility: hidden;
+    position: absolute;
+    top:0;
+    right:0;
+    z-index:100;
+    width:14%;
+    min-width:155px;
+    height:100%;
+    padding:0 15px 8px;
+    background-color: #f5f5f5;
+    background-color: rgba(245,245,245,.9);
+    font-size:120%;
+}
+ 
+#cmm_chose_location:hover #cmm_choose_location_legend{
+    visibility: visible;
+}
+#cmm_choose_location_legend input {
+		margin:0 0 .5em;
+}
+#cmm_choose_location_legend input#cmm_post_meta_city,
+#cmm_choose_location_legend input#cmm_post_meta_country {
+		margin:0 0 1em;
+}
+#cmm_choose_location_legend input.waiting{
+		color:#e2e2e2;
+		background: #fff url('/wp-admin/images/wpspin_light.gif') 98% 50%  no-repeat;
+}
+
+
+#wp-cmm_edit-delete-handler{	position: fixed!important;	}
+#wp-cmm_edit-delete-handler:hover{	display:block!important;	}
+#wp-cmm_edit-delete-handler img {
+		background-color: #EEE;
+		margin: 2px;
+		padding: 2px;
+		border: 1px solid #999;
+		-moz-border-radius: 3px;
+		-khtml-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+}
+#wp-cmm_edit-delete-handler img:hover {
+		background-color: #dfdfdf;
+		border-color:#000;
+}
+
+
+
+/**
+ *
+ *  TinyMCE Interface
+ *
+*/
+#cmm_tinymce_addshortcode_form{
+		background: whiteSmoke;
+}
+
+#cmm_tabs_navi{
+		margin: 0;
+		padding: 0 5px;
+		font-weight: bold;
+		position: relative;
+		border-bottom: 1px solid #DFDFDF;
+		background-color: #F9F9F9;
+}
+
+#cmm_tabs_navi ul{
+		font-weight: normal;
+		margin:5px 5px 0;
+		left: 0;
+		bottom: -1px;
+		float: none;
+		overflow: hidden;
+  	background: url("../img/CMM_16.png") no-repeat scroll center left transparent;
+  	padding-left: 24px;
+}
+
+#cmm_tabs_navi .ui-state-active a{
+		font-weight: normal;
+		padding-left: 6px;
+		padding-right: 6px;
+		-moz-border-radius: 3px 3px 0 0;
+		-webkit-border-top-left-radius: 3px;
+		-webkit-border-top-right-radius: 3px;
+		-khtml-border-top-left-radius: 3px;
+		-khtml-border-top-right-radius: 3px;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+		border-width: 1px;
+		border-style: solid;
+		background-color: whiteSmoke;
+		border-color: #DFDFDF #DFDFDF whiteSmoke;
+		color: #D54E21;
+}
+
+
+.cmm-tiny-panel{
+		margin:1em;
+}
+
+.cmm-tiny-panel h3{
+		font: 1.6em/1em normal Georgia,"Times New Roman",Times,serif;
+		color: #5A5A5A;
+}
+
+.cmm-tiny-panel .beta-info{
+		background-color: lightYellow;
+		border: 1px solid #E6DB55;
+		padding: 5px 10px;
+		-moz-border-radius: 3px;
+		-khtml-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+}
+
+.cmm-tiny-panel .howto + .howto{
+		margin-top:-.75em;
+}
+.toggle-arrow {
+		background: transparent url('/wp-admin/images/arrows.png') no-repeat right 3px;
+}
+
+
+.cmm-tiny-panel .form-table th {
+		width: 125px;
+		padding-left:0;
+}
+
+#cmm_tinymce_addshortcode_form .toggle-arrow{
+		display: inline-block;
+		padding-left: 16px;
+		cursor: pointer;
+		background-position: bottom left;
+		line-height: 29px;
+}
+#cmm_tinymce_addshortcode_form .toggle-active{
+		background-position: top left;
+		line-height: 16px;
+}
+
+/** Submit elements "Cancel" and "Insert" **/
+#cmm_tinymce_addshortcode_form .submitbox{
+		padding: 15px 10px 0;
+		font-size: 11px;
+		overflow: auto;
+		height: 29px;
+		border-top: 1px solid #DFDFDF;
+		margin-top:20px;
+}
+
+.cmm-submit{
+		line-height: 23px;
+		float: right;
+}
+
+.cmm-cancel{
+		line-height: 25px;
+		float: left;
+}
+
+
+
+/**
+ *  Contextual Help Tab
+ */
+
+.wp-cmm_contextual-help dl{
+  margin-left:20px;
+  list-style-type: lower-alpha;
+
+}
+
+.wp-cmm_contextual-help dt{
+  clear: left;
+  float: left;
+  width: 15%;
+}
+
+.wp-cmm_contextual-help dd{
+  margin-left: 15%;
+}

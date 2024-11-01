@@ -1,0 +1,4 @@
+.wp-cmm_placeholderImage{position:relative;border: 1px dashed #888!important; background: #F2F8FF url('../img/map_location.png') no-repeat scroll center center;}
+.wp-cmm_placeholderImage.alignleft{margin:0 1em 1em 0;}
+.wp-cmm_placeholderImage.aligncenter{margin:0 auto 1em;}
+.wp-cmm_placeholderImage.alignright{margin:0 0 1em 1em;}

@@ -1,0 +1,729 @@
+# Copyright (C) 2012 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-cloudmade-maps\n"
+"POT-Creation-Date: 2012-01-10 15:45:52+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: widgets/last-posts-widget.php:9
+msgid "List your recent located posts and show static maps of their positions."
+msgstr ""
+
+#: widgets/last-posts-widget.php:12
+msgid "Located posts"
+msgstr ""
+
+#: widgets/last-posts-widget.php:130
+msgid "Title:"
+msgstr ""
+
+#: widgets/last-posts-widget.php:135
+msgid "Categories:"
+msgstr ""
+
+#: widgets/last-posts-widget.php:138
+msgid "Category IDs, separated by commas"
+msgstr ""
+
+#: widgets/last-posts-widget.php:142
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/last-posts-widget.php:147
+msgid "show excerpt(s)"
+msgstr ""
+
+#: tinymce/tiny_windowform.php:7 tinymce/tiny_windowform.php:19
+msgid "Add static map"
+msgstr ""
+
+#: tinymce/tiny_windowform.php:7
+msgid "Static map"
+msgstr ""
+
+#: tinymce/tiny_windowform.php:10 tinymce/tiny_windowform.php:37
+msgid "Add interactive map for one post"
+msgstr ""
+
+#: tinymce/tiny_windowform.php:10
+msgid "Interactive single map"
+msgstr ""
+
+#: tinymce/tiny_windowform.php:11 tinymce/tiny_windowform.php:55
+msgid "Add interactive map for multiple posts"
+msgstr ""
+
+#: tinymce/tiny_windowform.php:11
+msgid "Interactive group map"
+msgstr ""
+
+#: tinymce/tiny_windowform.php:27 tinymce/tiny_windowform.php:45
+#: tinymce/tiny_windowform.php:78
+msgid "Cancel"
+msgstr ""
+
+#: tinymce/tiny_windowform.php:30 tinymce/tiny_windowform.php:48
+#: tinymce/tiny_windowform.php:81
+msgid "Insert map"
+msgstr ""
+
+#: tinymce/tiny_windowform.php:57
+msgid ""
+"This part is still in development. I recomend to not use this in production "
+"use."
+msgstr ""
+
+#: tinymce/tiny_windowform.php:59
+msgid ""
+"Define your filter properties by selecting some of the given categories, "
+"tags , users, etc."
+msgstr ""
+
+#: tinymce/tiny_windowform.php:65
+msgid ""
+"By default the active group-maps are using the same properties, as the "
+"active single-maps."
+msgstr ""
+
+#: tinymce/tiny_windowform.php:66
+msgid "Click here to change them for this map."
+msgstr ""
+
+#: cloudmademaps-infowindow.php:4
+msgid "Permalink to %s"
+msgstr ""
+
+#: cloudmademaps-infowindow.php:15
+msgid "Leave a comment"
+msgstr ""
+
+#: cloudmademaps-infowindow.php:15
+msgid "1 Comment"
+msgstr ""
+
+#: cloudmademaps-infowindow.php:15
+msgid "% Comments"
+msgstr ""
+
+#: cloudmademaps-infowindow.php:15
+msgid "Comments are closed."
+msgstr ""
+
+#: cloudmademaps-infowindow.php:19
+msgid "Edit"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:52
+msgid "Cloudmade API Key"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:53 class.CloudMadeMap.settings.php:73
+msgid "Sign up for your personal API key <a href=\"%s\">here</a>"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:62
+msgid "Cloudmade Style ID"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:63
+msgid ""
+"Copy from Cloudmade <a href=\"%s\">Style editor</a> or leave blank for "
+"default style."
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:72
+msgid "flickr Places API Key"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:73
+msgid "Needed for geo-locating and reverse geo-coding."
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:82
+msgid "Plugin Parts"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:88 menu/static.php:12
+#: cloudmade-map.php:1054
+msgid "Static Maps"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:89
+msgid "Is needed to use the widget"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:97
+msgid "Sidebar Widget"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:98
+msgid "show static maps of last geotagged posts"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:106 menu/active.php:11
+#: cloudmade-map.php:1075
+msgid "Interactive Maps"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:115 class.CloudMadeMap.settings.php:714
+msgid "Post Types"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:116
+msgid ""
+"Choose the post types, where to add the \"Choose location\" meta box on the "
+"edit screen."
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:139 menu/general.php:25
+msgid "Default Address"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:145 menu/general.php:27
+#: cloudmade-map.php:1537
+msgid "Street"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:154 menu/general.php:28
+#: cloudmade-map.php:1539
+msgid "Postal Code"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:164 menu/general.php:29
+#: cloudmade-map.php:1540
+msgid "City"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:173 class.CloudMadeMap.settings.php:300
+#: class.CloudMadeMap.settings.php:447 class.CloudMadeMap.settings.php:477
+#: class.CloudMadeMap.settings.php:507 menu/general.php:30
+#: cloudmade-map.php:850 cloudmade-map.php:1541
+msgid "Region"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:182
+msgid "Code"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:192 class.CloudMadeMap.settings.php:304
+#: class.CloudMadeMap.settings.php:451 class.CloudMadeMap.settings.php:481
+#: class.CloudMadeMap.settings.php:511 menu/general.php:32
+#: cloudmade-map.php:852 cloudmade-map.php:1281 cloudmade-map.php:1543
+msgid "Country"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:201 menu/general.php:33
+#: cloudmade-map.php:1544
+msgid "Latitude"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:211 menu/general.php:34
+#: cloudmade-map.php:1545
+msgid "Longitude"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:221
+msgid "Add Geo-Markup"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:227
+msgid "Add geo meta-tags to %1$s of every post and page"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:236
+msgid "Add microformat geo-tags to %1$s of every post and page"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:237
+msgid "The rendered markup is visually hidden with %1$s"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:245 class.CloudMadeMap.settings.php:385
+#: class.CloudMadeMap.settings.php:666
+msgid "Database Options"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:251 class.CloudMadeMap.settings.php:391
+#: class.CloudMadeMap.settings.php:672
+msgid "Restore defaults upon plugin deactivation/reactivation"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:252 class.CloudMadeMap.settings.php:392
+#: class.CloudMadeMap.settings.php:673
+msgid ""
+"Only check this if you want to reset plugin settings upon Plugin reactivation"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:265 class.CloudMadeMap.settings.php:406
+msgid "Map size"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:271 class.CloudMadeMap.settings.php:412
+#: class.CloudMadeMap.settings.php:581 menu/contextual_help.php:18
+#: menu/contextual_help.php:46 cloudmade-map.php:1299
+msgid "Width"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:272 class.CloudMadeMap.settings.php:282
+#: class.CloudMadeMap.settings.php:423 class.CloudMadeMap.settings.php:582
+#: class.CloudMadeMap.settings.php:592 cloudmade-map.php:1301
+#: cloudmade-map.php:1307
+msgid "in px"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:281 class.CloudMadeMap.settings.php:422
+#: class.CloudMadeMap.settings.php:591 menu/contextual_help.php:21
+#: menu/contextual_help.php:49 cloudmade-map.php:1305
+msgid "Height"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:291 class.CloudMadeMap.settings.php:432
+#: menu/contextual_help.php:24 menu/contextual_help.php:52
+msgid "Zoom level"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:308 class.CloudMadeMap.settings.php:455
+#: class.CloudMadeMap.settings.php:485 class.CloudMadeMap.settings.php:515
+#: cloudmade-map.php:851 cloudmade-map.php:1285
+msgid "County"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:312 class.CloudMadeMap.settings.php:459
+#: class.CloudMadeMap.settings.php:489 class.CloudMadeMap.settings.php:519
+#: cloudmade-map.php:853 cloudmade-map.php:1289
+msgid "Neighborhood"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:316 class.CloudMadeMap.settings.php:463
+#: class.CloudMadeMap.settings.php:493 class.CloudMadeMap.settings.php:523
+#: cloudmade-map.php:854 cloudmade-map.php:1293
+msgid "Building"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:321 class.CloudMadeMap.settings.php:566
+msgid "Marker Icon"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:322 class.CloudMadeMap.settings.php:573
+msgid "Enter an URL or upload an image for the markericon."
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:331
+msgid "Background Element(s)"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:332
+msgid ""
+"HTML Element, #ID- or .class-Name, where to add the background-image, e.g. "
+"<code>html</code>, <code>#wrapper</code> or multiple elements like "
+"<code>body, #wrapper</code>"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:340 class.CloudMadeMap.settings.php:626
+#: menu/contextual_help.php:29 menu/contextual_help.php:73
+msgid "Alignment"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:348 class.CloudMadeMap.settings.php:542
+#: class.CloudMadeMap.settings.php:634
+msgid "None"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:349 class.CloudMadeMap.settings.php:635
+msgid "Left"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:350 class.CloudMadeMap.settings.php:636
+msgid "Center"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:351 class.CloudMadeMap.settings.php:637
+msgid "Right"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:355
+msgid "Show Adress"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:361
+msgid "Show address as caption of the map"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:370 class.CloudMadeMap.settings.php:651
+msgid "Example"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:376 class.CloudMadeMap.settings.php:657
+msgid "Show example map with default configuration"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:377 class.CloudMadeMap.settings.php:658
+msgid "Is shown only on this page, centered to your current position"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:413
+msgid "in px or percent"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:438 menu/contextual_help.php:55
+msgid "Minimum zoom level"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:468
+msgid "Start zoom level"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:498 menu/contextual_help.php:58
+msgid "Maximum zoom level"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:528 menu/contextual_help.php:61
+msgid "Map controls"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:543
+msgid "Small control"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:544
+msgid "Large control"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:548
+msgid "Displays scale of the current map view"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:557
+msgid "A small overview map for navigational purposes"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:558
+msgid "\"Minimum zoom level\" must be 0 or 1 to make the overview map work"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:601
+msgid "Label"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:607
+msgid "Add label to marker"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:616
+msgid "Label title"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:617
+msgid "Show this text instead of post- or page-title."
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:641 menu/contextual_help.php:76
+msgid "copyright mention"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:642 menu/contextual_help.php:77
+msgid ""
+"HTML Element, #ID- or .class-Name, where to move the copyright mention from "
+"Cloudmade, e.g. <code>#site-generator</code>"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:685
+msgid "Categories"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:695
+msgid "Tags"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:696
+msgid "Separate tags with commas"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:704
+msgid "Users"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:724
+msgid "Infowindow-Content"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:725
+msgid ""
+"To use your own templatefile, just copy %1$s from the %2$s plugin-folder at %"
+"3$s into your theme folder and modify it to your needs."
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:732
+msgid "No infowindow"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:733
+msgid "Excerpt"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:734
+msgid "Content"
+msgstr ""
+
+#: class.CloudMadeMap.settings.php:735
+msgid "Own templatefile"
+msgstr ""
+
+#: menu/general.php:5 menu/active.php:5 menu/static.php:6
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: menu/general.php:11 cloudmade-map.php:1046 cloudmade-map.php:1410
+#: cloudmade-map.php:1421
+msgid "General"
+msgstr ""
+
+#: menu/general.php:11 menu/active.php:11 menu/widget.php:7 menu/static.php:12
+#: cloudmade-map.php:1046 cloudmade-map.php:1054 cloudmade-map.php:1075
+#: cloudmade-map.php:1410 cloudmade-map.php:1421 cloudmade-map.php:1480
+msgid "Settings"
+msgstr ""
+
+#: menu/general.php:31 cloudmade-map.php:1542
+msgid "Region Code"
+msgstr ""
+
+#: menu/general.php:42 menu/active.php:25 menu/static.php:25
+msgid "Save Changes"
+msgstr ""
+
+#: menu/active.php:29 menu/static.php:30
+msgid "Hover to view full size"
+msgstr ""
+
+#: menu/active.php:30
+msgid "Default marker with your approximated position."
+msgstr ""
+
+#: menu/widget.php:7
+msgid "Widgets"
+msgstr ""
+
+#: menu/contextual_help.php:13
+msgid "Usage of the Static Maps Shortcode"
+msgstr ""
+
+#: menu/contextual_help.php:14
+msgid "For a simple static map inside a post or page use"
+msgstr ""
+
+#: menu/contextual_help.php:14 menu/contextual_help.php:42
+msgid "The generated map will use the default values from this page."
+msgstr ""
+
+#: menu/contextual_help.php:15
+msgid ""
+"To show a personalized static map use one or more of the following "
+"attributes:"
+msgstr ""
+
+#: menu/contextual_help.php:19 menu/contextual_help.php:22
+#: menu/contextual_help.php:47 menu/contextual_help.php:50
+msgid "Awaiting integers (in px) only, do not add any units."
+msgstr ""
+
+#: menu/contextual_help.php:25 menu/contextual_help.php:53
+#: menu/contextual_help.php:56 menu/contextual_help.php:59
+msgid "use integers between 0 and 18"
+msgstr ""
+
+#: menu/contextual_help.php:27
+msgid "to show the map as a background-image"
+msgstr ""
+
+#: menu/contextual_help.php:30 menu/contextual_help.php:74
+msgid ""
+"choose between %1$s for left alignment, %2$s for right alignment, %3$s for "
+"centered positioning and %4$s for no explicit alignment."
+msgstr ""
+
+#: menu/contextual_help.php:32
+msgid "Show adress of the current point on the map as caption of the map"
+msgstr ""
+
+#: menu/contextual_help.php:35
+msgid ""
+"Try adding two shortcodes, one for a small preview and one for the "
+"background and give them different zoomlevels ;)"
+msgstr ""
+
+#: menu/contextual_help.php:41
+msgid "Usage and control of the Interactive Maps"
+msgstr ""
+
+#: menu/contextual_help.php:42
+msgid "For a simple active map inside a post or page use"
+msgstr ""
+
+#: menu/contextual_help.php:43
+msgid ""
+"To show a personalized active map use one or more of the following "
+"attributes:"
+msgstr ""
+
+#: menu/contextual_help.php:62
+msgid ""
+"<strong><code>L</code></strong> for large controll, <strong><code>S</code></"
+"strong> for a small one and leave or <strong><code>N</code></strong> for no "
+"control."
+msgstr ""
+
+#: menu/contextual_help.php:64
+msgid "Show the displays scale."
+msgstr ""
+
+#: menu/contextual_help.php:65
+msgid "Allowed attributes:"
+msgstr ""
+
+#: menu/contextual_help.php:65
+msgid ""
+"are only <strong><code>1</code></strong> to show or <strong><code>0</code></"
+"strong> to hide"
+msgstr ""
+
+#: menu/contextual_help.php:67
+msgid "Show a small overview map"
+msgstr ""
+
+#: menu/contextual_help.php:69
+msgid "Add labels to marker"
+msgstr ""
+
+#: menu/contextual_help.php:71
+msgid "Description for marker &amp; label instead of post- or page-title."
+msgstr ""
+
+#: menu/contextual_help.php:85
+msgid "Support Forum"
+msgstr ""
+
+#: menu/credits.php:3 cloudmade-map.php:1089
+msgid "Credits"
+msgstr ""
+
+#: menu/credits.php:6 menu/credits.php:7 menu/credits.php:8
+msgid "License"
+msgstr ""
+
+#: menu/credits.php:8
+msgid "by"
+msgstr ""
+
+#: cloudmade-map.php:395
+msgid "Map of"
+msgstr ""
+
+#: cloudmade-map.php:664
+msgid "Error - something went wrong"
+msgstr ""
+
+#: cloudmade-map.php:664
+msgid ""
+"Please copy %1$s from the %2$s plugin-folder at %3$s into your theme folder."
+msgstr ""
+
+#: cloudmade-map.php:746
+msgid ""
+"To see a map here, you should have <a href=\"%1$s\">javascript</a> enabled. "
+"<a href=\"%2$s\" title=\"How to enable Javascript in your browser\">Give it "
+"a try</a>!"
+msgstr ""
+
+#: cloudmade-map.php:847
+msgid "Zoom in"
+msgstr ""
+
+#: cloudmade-map.php:848
+msgid "Zoom out"
+msgstr ""
+
+#: cloudmade-map.php:1045
+msgid "Options"
+msgstr ""
+
+#: cloudmade-map.php:1152
+msgid "Only integers are accepted."
+msgstr ""
+
+#: cloudmade-map.php:1167
+msgid "Please provide a correct URL."
+msgstr ""
+
+#: cloudmade-map.php:1181
+msgid "Only integers and simple chars are accepted."
+msgstr ""
+
+#: cloudmade-map.php:1196 cloudmade-map.php:1234
+msgid "Please choose one of the provided options."
+msgstr ""
+
+#: cloudmade-map.php:1274
+msgid "default zoom level"
+msgstr ""
+
+#: cloudmade-map.php:1276
+msgid "World"
+msgstr ""
+
+#: cloudmade-map.php:1383
+msgid "Please %1$s your wordpress to at least version %2$s"
+msgstr ""
+
+#: cloudmade-map.php:1387
+msgid "Upgrade"
+msgstr ""
+
+#: cloudmade-map.php:1395
+msgid "You need to run at least PHP %1$s"
+msgstr ""
+
+#: cloudmade-map.php:1406
+msgid "Please insert a Cloudmade API key at %1$s."
+msgstr ""
+
+#: cloudmade-map.php:1417
+msgid ""
+"Please define at least one post_type, where to load the \"%2$s\" meta box on "
+"the edit screen at %1$s."
+msgstr ""
+
+#: cloudmade-map.php:1422 cloudmade-map.php:1511 cloudmade-map.php:1550
+msgid "Choose location"
+msgstr ""
+
+#: cloudmade-map.php:1496
+msgid "Donate"
+msgstr ""
+
+#: cloudmade-map.php:1536
+msgid "Click on the map or drag the marker to choose location."
+msgstr ""
+
+#: cloudmade-map.php:1546
+msgid "Find on the map"
+msgstr ""
+
+#: cloudmade-map.php:1553
+msgid "Please <a href=\"%1$s\">choose a location</a> before saving."
+msgstr ""
+
+#: cloudmade-map.php:1770
+msgid "Upload"
+msgstr ""
+
+#: cloudmade-map.php:1807
+msgid "Your current marker:"
+msgstr ""
